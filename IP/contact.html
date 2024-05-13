@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Contact Us</title>
+<link rel="stylesheet" href="contact.css">
+<link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+        <link rel="stylesheet" href="responsive.css"/>
+        <script src="destination.js"></script>
+</head>
+<body onload='if (window.location.href.substr(window.location.href.length - 6) == "#about") { introAboutLogoTransition(); }'
+>
+
+<!--navbar-->
+<nav class="navbar glass" style="height: 70px">
+  <span
+      ><a href="#home" style="display: flex; align-items: center"
+          ><img
+              class="img2"
+              src="logo.png"
+              width="200"
+              style="margin: -25px -10px -25px -20px"
+          />
+          </a
+      ></span
+  >
+  <ul class="nav-links">
+      <li>
+          <a href="Digital_tourism_guide.html" class="cir_border">Home</a>
+      </li>
+      <li><a href="destinations.html"  class="cir_border">Destinations</a></li>
+      <li>
+          <a href="activities.html"  class="cir_border">Activity</a>
+      </li>
+      <li>
+          <a href="contact.html"  class="active cir_border">Contact Us</a>
+      </li>
+  </ul>
+
+</nav>
+<!--navbar-->
+
+<div class="container">
+  <h1>Contact Us</h1>
+  <p>For inquiries or assistance, please Feel free to contact us using the form below or through the contact information.</p>
+  
+  <form action="#" method="post">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+    
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+    
+    <label for="subject">Subject:</label>
+    <input type="text" id="subject" name="subject">
+    
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" rows="4" required></textarea>
+    
+    <button type="submit">Submit</button>
+  </form>
+  
+  <div class="contact-info">
+    <h2>Contact Information</h2>
+    <p>Email: digitaltourismhelp@gmail.com</p>
+    <p>Phone: 7033416007,  9155832085</p>
+    <p>Address: Chitkara University, Baddi, Himachal Pradesh, India.</p>
+  </div>
+</div>
+</body>
+</html>

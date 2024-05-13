@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="destinations.css">
+    <title>Destinations</title>
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+        <link rel="stylesheet" href="responsive.css"/>
+        <script src="destination.js"></script>
+</head>
+
+<body onload='if (window.location.href.substr(window.location.href.length - 6) == "#about") { introAboutLogoTransition(); }'
+>
+  <!--navbar-->
+  <nav class="navbar glass" style="height: 70px">
+    <span
+        ><a href="#home" style="display: flex; align-items: center"
+            ><img
+                class="img2"
+                src="logo.png"
+                width="200"
+                style="margin: -25px -10px -25px -20px"
+            />
+            </a
+        ></span
+    >
+    <ul class="nav-links">
+        <li>
+            <a href="Digital_tourism_guide.html" class="cir_border">Home</a>
+        </li>
+        <li><a href="destinations.html"  class="active cir_border">Destinations</a></li>
+        <li>
+            <a href="activities.html"  class="cir_border">Activity</a>
+        </li>
+        <li>
+            <a href="contact.html"  class="cir_border">Contact Us</a>
+        </li>
+    </ul>
+
+</nav>
+<!--navbar-->
+
+<div class="filters">
+  <button class="filter-button active" data-filter="all">All</button>
+  <button class="filter-button" data-filter="east">East</button>
+  <button class="filter-button" data-filter="north">North</button>
+  <button class="filter-button" data-filter="west">West</button>
+  <button class="filter-button" data-filter="south">South</button>
+</div>
+
+<div class="filter-content">
+  <div class="destination east">
+      <img src="dajeeling.jpg" alt="East Destination">
+      <h3>Darjeeling</h3>
+    <a href="https://www.incredibleindia.org/content/incredible-india-v2/en/destinations/darjeeling.html" class="read-more">Read More</a>
+    </div>
+    <div class="destination east">
+      <img src="kolkata.jpg" alt="East Destination">
+      <h3>Kolkata</h3>
+      <a href="https://www.incredibleindia.org/content/incredible-india-v2/en/search.html?q=Kolkata" class="read-more">Read More</a>
+
+    </div>
+    <div class="destination east">
+      <img src="puri.jpg" alt="East Destination">
+      <h3>Jagannath Puri, Odhisa</h3>
+      <a href="https://www.incredibleindia.org/content/incredible-india-v2/en/destinations/puri/sri-jagannath-temple.html" class="read-more">Read More</a>
+
+    </div>
+  
+    <div class="destination east">
+      <img src="Kazi.jpg" alt="East Destination">
+      <h3>Kaziranga National Park, Assam</h3>
+      <a href="https://www.incredibleindia.org/content/incredible-india-v2/en/destinations/kaziranga/kaziranga-national-park.html" class="read-more">Read More</a>
+
+    </div>
+  
+    <div class="destination east">
+      <img src="agar.jpg" alt="East Destination">
+      <h3>Agartala, Tripura</h3>
+      <a href="https://www.incredibleindia.org/content/incredible-india-v2/en/destinations/agartala.html" class="read-more">Read More</a>
+
+    </div>
+  
+    <div class="destination east">
+      <img src="rajgir.jpg" alt="East Destination">
+      <h3>Rajgir, Bihar</h3>
+      <a href="https://www.incredibleindia.org/content/incredible-india-v2/en/destinations/nalanda/rajgir.html" class="read-more">Read More</a>
+
+    </div>
+  
+    <div class="destination east">
+      <img src="aan.jpg" alt="East Destination">
+      <h3>Andaman & Nicobar Islands</h3>
+      <a href="https://www.incredibleindia.org/content/incredible-india-v2/en/destinations/andaman-and-nicobar.html" class="read-more">Read More</a>
+
+    </div>
+  
+    <div class="destination east">
+      <img src="dibru.webp" alt="East Destination">
+      <h3>Dibrugarh, Assam</h3>
+      <a href="https://www.incredibleindia.org/content/incredible-india-v2/en/destinations/jorhat/dibrugarh.html" class="read-more">Read More</a>
+    </div>
+
+
+    <div class="destination west">
+      <img src="Mumbai.jpg" alt="west">
+      <h3>Mumbai</h3>
+      <p>India's bustling financial capital, known for its iconic landmarks, vibrant street life, and Bollywood glamour.</p>
+      <a href="https://www.incredibleindia.org/content/incredible-india-v2/en/destinations/mumbai.html" class="read-more">Read More</a>
+
+    </div>
+  
+    <div class="destination west">
+      <img src="Unity.jpg" alt="west">
+      <h3>Statue of Unity</h3>
+      <p >The Statue of Unity, located in Gujarat, India, stands as the world's tallest statue, paying homage to the 
+        visionary statesman Sardar Vallabhbhai Patel and symbolizing unity and national pride
+       </p>
+      <a href="https://www.incredibleindia.org/content/incredible-india-v2/en/destinations/vadodara/statue-of-unity.html" class="read-more">Read More</a>
+
+    </div>
+  
+    <div class="destination west">
+      <img src="puri.jpg" alt="west">
+      <h3>Pune</h3>
+      <p >A vibrant city known for its educational institutions, 
+        historical sites, and lush greenery, offering a perfect mix of modernity and tradition
+       </p>
+      <a href="https://www.incredibleindia.org/content/incredible-india-v2/en/destinations/puri/sri-jagannath-temple.html" class="read-more">Read More</a>
+
+    </div>
+  
+    <div class="destination west">
+      <img src="Gir.jpg" alt="west">
+      <h3>Gir National Park</h3>
+      <p >Gir National Park in Gujarat, India, is the sole home of the Asiatic lion,
+        providing a rare chance to observe these majestic creatures in their natural environment.
+       </p>
+      <a href="https://www.incredibleindia.org/content/incredible-india-v2/en/destinations/sasan-gir/gir-national-park.html" class="read-more">Read More</a>
+
+    </div>
+  
+    <div class="destination west">
+      <img src="sanchi-stupa.jpg" alt="west">
+      <h3>sanchi-stupa, M.P.</h3>
+      <p >Sanchi, in Madhya Pradesh, India, is famous for its ancient Buddhist stupas, reflecting profound architectural and spiritual significance.
+       </p>
+      <a href="https://www.incredibleindia.org/content/incredible-india-v2/en/destinations/sanchi/sanchi-stupa.html" class="read-more">Read More</a>
+
+    </div>
+
+    <div class="destination west">
+      <img src="udai.jpg" alt="west">
+      <h3>Udaipur</h3>
+      <p >Nestled amidst the Aravalli Hills in Rajasthan, Udaipur is a captivating blend of history, culture, and natural beauty. Known as the "City of Lakes," its shimmering lakes, majestic palaces, and vibrant bazaars make it one of India's most romantic and picturesque destinations. Explore the royal heritage and timeless charm of Udaipur.
+  
+       </p>
+      <a href="https://www.incredibleindia.org/content/incredible-india-v2/en/destinations/udaipur.html" class="read-more">Read More</a>
+
+    </div>
+  
+  
+    <div class="destination west">
+      <img src="maha.jpg" alt="west">
+      <h3>Mahableshwar, Maharashtra</h3>
+      <p >Discover the breathtaking beauty of Mahabaleshwar, nestled amidst the lush greenery of the Western Ghats. Famous for its stunning viewpoints, strawberry farms, and serene lakes, Mahabaleshwar offers a perfect retreat from the hustle and bustle of city life. Experience nature at its finest in this charming hill station.
+       </p>
+      <a href="https://www.incredibleindia.org/content/incredible-india-v2/en/destinations/mahabaleshwar.html" class="read-more">Read More</a>
+       
+    </div>
+  
+    <div class="destination west">
+      <img src="Khujaraho.jpg" alt="west">
+      <h3>Khujaraho, Madhya Pradesh</h3>
+      <p > Khajuraho, in Madhya Pradesh, India, is celebrated for its intricate and exquisite temples adorned with 
+        elaborate erotic sculptures, reflecting the rich artistic and cultural heritage of ancient India
+       </p>
+      <a href="https://www.incredibleindia.org/content/incredible-india-v2/en/destinations/khajuraho.html" class="read-more">Read More</a>
+
+    </div>
+
+
+
+
+    <div class="destination north">
+      <img src="Ayodhya.jpg" alt="ayodhya">
+      <h3>Ayodhya</h3>
+      <p> Ayodhya, a city in Uttar Pradesh, is renowned as the birthplace of Lord Rama and holds significant religious importance for Hindus worldwide.
+        Its tranquil streets and sacred sites attract visitors seeking spiritual solace and historical insights.</p>
+        <a href="https://www.incredibleindia.org/content/incredible-india-v2/en/destinations/ayodhya.html" class="read-more">Read More</a>
+
+    </div>
+  
+    <div class="destination north">
+      <img src="Taj.jpg" alt="tajmahal">
+      <h3>Taj Mahal</h3>
+      <p>The Taj Mahal is an ivory-white marble mausoleum on the right bank of the river Yamuna in the Indian city of Agra</p>
+      <a href="https://www.incredibleindia.org/content/incredible-india-v2/en/destinations/agra/taj-mahal.html" class="read-more">Read More</a>
+    
+    </div>
+  
+    <div class="destination north">
+      <img src="Bihar.jpg" alt="Bihar">
+      <h3>Bihar</h3>
+      <p>Rajgir, Nalanda, and Bodh Gaya, nestled in Bihar, 
+        India, are revered for their profound ties to Buddhism. Rajgir's tranquil hills, 
+        Nalanda's ancient seat of learning, and Bodh Gaya's sacred Bodhi Tree collectively offer visitors a serene 
+        journey through Buddhism's rich history and spiritual significance</p>
+      <a href="https://www.incredibleindia.org/content/incredible-india-v2/en/destinations/nalanda/rajgir.html" class="read-more">Read More</a>
+
+    </div>
+  
+    <div class="destination north">
+      <img src="nainital.jpg" alt="nanital">
+      <h3>Nainital, Uttarakhand</h3>
+      <p>A charming hill station nestled around a beautiful lake, offering boating, trekking, and panoramic views.</p>
+      <a href="https://www.incredibleindia.org/content/incredible-india-v2/en/destinations/nainital.html" class="read-more">Read More</a>
+
+    </div>
+  
+    <div class="destination north">
+      <img src="Kashmir.jpg" alt="Kashmir">
+      <h3>Kashmir Valley, Jammu & Kashmir</h3>
+      <p>Renowned for its stunning natural beauty, including snow-capped mountains, lush valleys, and serene lakes.</p>
+      <a href="https://www.incredibleindia.org/content/incredible-india-v2/en/destinations/states/jammu-and-kashmir.html" class="read-more">Read More</a>
+
+    </div>
+  
+    <div class="destination north">
+      <img src="Varanasi.jpg" alt="varanasi">
+      <h3>varanasi, Uttar Pradesh</h3>
+      <p>One of the oldest continually inhabited cities in the world, famous for its ghats along the Ganges River.</p>
+      <a href="https://www.incredibleindia.org/content/incredible-india-v2/en/destinations/varanasi.html" class="read-more">Read More</a>
+
+    </div>
+  
+    <div class="destination north">
+      <img src="Delhi.jpg" alt="Delhi">
+      <h3>Delhi</h3>
+      <p>Delhi, India's capital city, is a vibrant metropolis blending rich historical 
+        heritage with modern cosmopolitanism.</p>
+      <a href="https://www.incredibleindia.org/content/incredible-india-v2/en/destinations/delhi.html" class="read-more">Read More</a>
+
+    </div>
+  
+    <div class="destination north">
+      <img src="Ranthambhore.jpg" alt="Ranthambhore">
+      <h3>Ranthambhore National Park, Rajasthan</h3>
+      <p>Famous for its tiger population and wildlife safaris amidst ancient ruins</p>
+      <a href="https://www.incredibleindia.org/content/incredible-india-v2/en/destinations/jaipur/ranthambore-national-park.html" class="read-more">Read More</a>
+
+    </div>
+  
+    <div class="destination north">
+      <img src="Shimla.jpg" alt="shimla">
+      <h3>Shimla, Himachal Pradesh</h3>
+      <p>Shimla, nestled in the Himalayas, is a serene hill station famed for 
+        its colonial charm and breathtaking mountain vistas, 
+        inviting travelers to unwind in its tranquil ambiance and scenic landscapes.</p>
+      <a href="https://www.incredibleindia.org/content/incredible-india-v2/en/destinations/shimla.html" class="read-more">Read More</a>
+
+    </div>
+  
+    <div class="destination north">
+      <img src="ladakh.jpg" alt="ladakh">
+      <h3>Ladakh</h3>
+      <p>Shimla, nestled in the Himalayas, is a serene hill station famed for 
+        its colonial charm and breathtaking mountain vistas, 
+        inviting travelers to unwind in its tranquil ambiance and scenic landscapes.</p>
+      <a href="https://www.incredibleindia.org/content/incredible-india-v2/en/destinations/leh-ladakh/ladakh.html" class="read-more">Read More</a>
+
+    </div>
+  
+    <div class="destination north">
+      <img src="Amritsar.jpg" alt="Amritsar">
+      <h3>Amritsar</h3>
+      <p>Amritsar, a city in Punjab, India, is renowned for its cultural vibrancy and 
+        spiritual significance, notably housing the iconic Golden Temple, a revered Sikh pilgrimage site.</p>
+      <a href="https://www.incredibleindia.org/content/incredible-india-v2/en/destinations/amritsar.html" class="read-more">Read More</a>
+
+    </div>
+  
+    <div class="destination north">
+      <img src="Jaipur.jpg" alt="Jaipur">
+      <h3>Jaipur</h3>
+      <p>Jaipur, the capital of Rajasthan, is affectionately known as the "Pink City" 
+        for its iconic pink-hued buildings and majestic forts, offering a captivating blend of history and vibrant culture.</p>
+      <a href="https://www.incredibleindia.org/content/incredible-india-v2/en/destinations/jaipur.html" class="read-more">Read More</a>
+
+    </div>
+
+
+    <div class="destination south">
+      <img src="ram.webp" alt="Rameshwaram, Tamil Nadu">
+      <h3>Rameshwaram, Tamil Nadu</h3>
+      <p>
+        "Rameshwaram: where spirituality meets tranquility. Discover ancient temples, pristine beaches, and legendary tales in this sacred town by the sea"
+      </p>
+      <a href="https://www.incredibleindia.org/content/incredible-india-v2/en/destinations/rameswaram.html" class="read-more">Read More</a>
+
+    </div>
+  
+    <div class="destination south">
+      <img src="coorg.webp" alt="Coorg, Karnataka">
+      <h3>Coorg, Karnataka</h3>
+      <p>"Discover Coorg's lush coffee plantations, misty hills, and cascading waterfalls. Immerse yourself in nature's embrace and experience tranquility in this charming hill station."</p>
+      <a href="https://www.incredibleindia.org/content/incredible-india-v2/en/destinations/states/karnataka.html" class="read-more">Read More</a>
+
+    </div>
+  
+    <div class="destination south">
+      <img src="benga.jpg" alt="Bengaluru">
+      <h3>Bengaluru, Karnataka</h3>
+      <p >"Experience Bengaluru's dynamic vibe blending heritage with modernity. Explore bustling markets, lush parks, and vibrant nightlife. Discover the Silicon Valley of India, where tradition meets innovation."</p>
+      <a href="https://www.incredibleindia.org/content/incredible-india-v2/en/destinations/bengaluru.html" class="read-more">Read More</a>
+
+    </div>
+  
+    <div class="destination south">
+      <img src="shiv.jpg" alt="Coimbatore">
+      <h3>Coimbatore, Tamil Nadu</h3>
+      <p> "Discover Coimbatore's vibrant culture, lush landscapes, and modern amenities. Explore ancient temples, picturesque waterfalls, and delectable cuisine in this dynamic city."</p>
+      <a href="https://www.incredibleindia.org/content/incredible-india-v2/en/destinations/coimbatore.html" class="read-more">Read More</a>
+    </div>
+    <div class="destination south">
+      <img src="char.jpg" alt="Hyderabad">
+      <h3>Hyderabad</h3>
+      <p >"Experience the rich heritage of Hyderabad with its iconic Charminar, delectable cuisine, and vibrant bazaars. Explore the blend of tradition and modernity in this historic city."</p>
+      <a href="https://www.incredibleindia.org/content/incredible-india-v2/en/destinations/hyderabad.html" class="read-more">Read More</a>
+    </div>
+  
+    <div class="destination south">
+      <img src="pala.jpg" alt="Mysuru">
+      <h3>Mysuru, Karnataka</h3>
+      <p>"Experience the grandeur of Mysuru's royal heritage, adorned with majestic palaces, vibrant festivals, and lush gardens. Immerse yourself in its rich culture and timeless charm."</p>
+      <a href="https://www.incredibleindia.org/content/incredible-india-v2/en/destinations/mysore.html" class="read-more">Read More</a>
+    </div>
+  
+    <div class="destination south">
+      <img src="Hampi.jpg" alt=" Hampi">
+      <h3>Hampi, Karnatka</h3>
+      <p >"Step into the ancient ruins of Hampi, Karnataka. Explore the majestic temples, boulder-strewn landscapes, and vibrant markets, where history and culture intertwine in a mesmerizing tapestry."
+          </p>
+      <a href="https://www.incredibleindia.org/content/incredible-india-v2/en/destinations/hampi.html" class="read-more">Read More</a>
+    </div>
+  
+    <div class="destination south">
+      <img src="tiru.jpg" alt="tirupati">
+      <h3>Tirupati Balaji, Andhra Pradesh</h3>
+      <p>"Embark on a spiritual journey to Tirupati Balaji in Andhra Pradesh. Witness divine architecture, sacred rituals, and immerse in the aura of devotion at this revered pilgrimage destination."
+      </p>
+      <a href="https://www.incredibleindia.org/content/incredible-india-v2/en/destinations/tirupati.html" class="read-more">Read More</a>
+
+    </div>
+
+
+
+
+
+
+
+      <i class="arrow"  onclick="topFunction()" id="upbtn"></i>
+      <script>
+        const menuBtn = document.querySelector(".menu-btn");
+        const navlinks = document.querySelector(".nav-links");
+
+        menuBtn.addEventListener("click", () => {
+            navlinks.classList.toggle("mobile-menu");
+        });
+    </script>
+   
+   <footer>
+    <div class="container">
+      <p>&copy; deshjourney. All Rights Reserved.</p>
+    </div>
+  </footer>
+</body>
+
+
+</html>

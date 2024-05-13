@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>deshjourney</title>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="responsive.css" />
+        
+    </head>
+    <body
+        onload='if (window.location.href.substr(window.location.href.length - 6) == "#about") { introAboutLogoTransition(); }'
+    >
+        <!--navbar-->
+        <nav class="navbar glass" style="height: 70px">
+            <span
+                ><a href="#home" style="display: flex; align-items: center"
+                    ><img
+                        class="img2"
+                        src="logo.png"
+                        width="200"
+                        style="margin: -25px -10px -25px -20px"
+                    />
+                    </a
+                ></span
+            >
+            <ul class="nav-links">
+                <li>
+                    <a href="#home" class="active cir_border">Home</a>
+                </li>
+                <li><a href="destinations.html"  class="cir_border">Destinations</a></li>
+                <li>
+                    <a href="activities.html"  class="cir_border">Activity</a>
+                </li>
+                <li>
+                    <a href="contact.html"  class="cir_border">Contact Us</a>
+                </li>
+            </ul>
+
+        </nav>
+        <!--navbar-->
+
+        <header id="home">
+            <div class="header-content">
+                <h2 id="quote">One State, Many Worlds</h2>
+                <div class="line"></div>
+                <h1>Explore India</h1>
+                <a
+                    class="ctn"
+                    onclick='removeall(); $("#quad").css("border", "2px solid whitesmoke"); $("#quad").css("border-radius", "20px");'
+                    >Lets Tour</a>
+                
+            </div>
+        </header>
+
+        <!--Events-->
+       
+        <!--Events-->
+
+        <!--Explore-->
+        
+        
+        <!--Explore-->
+
+        <!--tours-->
+        <!--tours-->
+
+        <!-- About -->
+        
+        <!-- About -->
+
+        <!-- Contributions -->
+       
+        <!-- Contributions -->
+
+        <!-- contact -->
+        <!-- contact  -->
+        <!-- up scroll -->
+        <i class="arrow"  onclick="topFunction()" id="upbtn"></i>
+        <!-- end -->
+        <!--footer-->
+        
+        <script>
+            const menuBtn = document.querySelector(".menu-btn");
+            const navlinks = document.querySelector(".nav-links");
+
+            menuBtn.addEventListener("click", () => {
+                navlinks.classList.toggle("mobile-menu");
+            });
+        </script>
+          <footer>
+            <div class="container">
+              <p>&copy; deshjourney. All Rights Reserved.</p>
+            </div>
+          </footer>
+    </body>
+</html>
